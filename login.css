@@ -1,0 +1,216 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.body1 {
+    width: 100%;
+    height: 100vh;
+    background: url(bg.jpg) no-repeat;
+    font-family: sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    color: white;
+    width: 30%;
+    padding: 5% 5%;
+}
+
+.container h1 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+
+
+
+}
+
+.box {
+    width: 100%;
+    margin: 10px 0px;
+    border-bottom: 3px solid purple;
+}
+
+.box input {
+    background: none;
+    width: 75%;
+    margin: 12px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+
+.box input::placeholder {
+    color: rgb(175, 164, 164);
+}
+
+.forget {
+    display: flex;
+    justify-content: space-between;
+}
+
+.for1 {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    position: relative;
+    font-weight: bold;
+}
+
+.for1:before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+    width: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+}
+
+.for1:hover::before {
+    width: 90%;
+}
+
+.register {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    position: relative;
+    font-weight: bold;
+
+}
+
+.register:before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+    width: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+}
+
+.register:hover::before {
+    width: 90%;
+}
+
+
+.btn {
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    padding: 6px 15px;
+    margin: 12px 0px;
+    border: 2px solid purple;
+    font-size: 20px;
+    background: none;
+    font-weight: bold;
+    width: 98%;
+}
+
+.btn:hover {
+    color: purple;
+    background: white;
+}
+
+.reg1 {
+    text-align: center;
+
+}
+
+.body2 {
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container2 {
+    margin-top: 3%;
+    width: 50%;
+    height: auto;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    color: white;
+}
+
+.container2 h1 {
+    text-align: center;
+    padding: 4%;
+    font-size: 40px;
+}
+
+.data {
+    margin: 5%;
+    font-size: 22px;
+
+}
+
+.radio1 {
+    margin: 5%;
+    font-size: 22px;
+}
+
+.data label {
+    margin: 0 5px;
+}
+
+.data input {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 3px solid purple;
+    font-size: 17px;
+    color: white;
+    width: 50%;
+
+
+}
+
+.btn2 {
+
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    padding: 6px 15px;
+    margin: 12px 0px;
+    border: 2px solid purple;
+    font-size: 20px;
+    background: none;
+    font-weight: bold;
+    width: auto;
+    position: relative;
+    left: 80%;
+}
+
+.btn2:hover {
+    color: purple;
+    background-color: white;
+}
